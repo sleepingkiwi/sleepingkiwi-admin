@@ -4,11 +4,11 @@
 
 **And** **[client name]** on behalf of **[company name]**.
 
-### Summary:
+### Summary
 
 We’ll always do our best to fulfil your needs and meet your expectations, but it’s important to have things written down so that we both know what’s what, who should do what and when, and what will happen if something goes wrong. We've tried to steer clear of complicated legal terms or long passages of unreadable text; we've no desire to make you read a long and complex document, but we do believe it's best for both parties if we lay this all out clearly from the start.
 
-### In short;
+### In short
 
 You **[customer name],** **[located at customer address]** (“You”) are hiring us **[company name]** (“We or Us”) to:
 
@@ -89,9 +89,7 @@ Finally, if any provision of this contract shall be unlawful, void, or for any r
 
 ### Intellectual property rights
 
-Just to be clear, “Intellectual property rights” means all patents, rights to inventions, copyright (including rights in software) and related rights, trademarks, service marks, get up and trade names, internet domain names, rights to goodwill or to sue for passing off, rights in designs, database rights, rights in confidential information (including know-how) and any other intellectual property rights, in each case whether registered or unregistered and including all applications (or rights to apply) for, and renewals or extensions of, such rights and all similar or equivalent rights or forms of protection which subsist or shall subsist now or in the future in any part of the world.
-
-Blimey.
+Just to be clear, “Intellectual property rights” means all patents, rights to inventions, copyright (including rights in software) and related rights, trademarks, service marks, get up and trade names, internet domain names, rights to goodwill or to sue for passing off, rights in designs, database rights, rights in confidential information (including know-how) and any other intellectual property rights, in each case whether registered or unregistered and including all applications (or rights to apply) for, and renewals or extensions of, such rights and all similar or equivalent rights or forms of protection which subsist or shall subsist now or in the future in any part of the world. 🤯
 
 First, you guarantee that all elements of text, images or other artwork you provide are either owned by your good selves, or that you’ve permission to use them. When you provide text, images or other artwork to us, you agree to protect us from any claim by a third party that we’re using their intellectual property.
 
