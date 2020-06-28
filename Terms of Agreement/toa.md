@@ -30,9 +30,9 @@ Of course it’s a little more complicated, but we’ll get to that.
 
 ### Design
 
-For your website we create look-and-feel designs, and flexible layouts that adapt to the capabilities of many devices and screen sizes. We create designs iteratively and use predominantly HTML and CSS so we won’t waste time mocking up every template as a static visual. We may use visuals to indicate a creative direction (colour, texture and typography.) We call that ‘atmosphere.’
+For your website we create look-and-feel designs, and flexible layouts that adapt to the capabilities of many devices and screen sizes. We create designs iteratively and use a combination of design tools alongside HTML and CSS so we won’t always mock up every template as a static visual. We may use visuals to indicate a creative direction (colour, texture and typography).
 
-You’ll have plenty of opportunities to review our work and provide feedback. We’ll either share a Dropbox, Google Drive folder or Github repository or development site with you and we’ll have regular, possibly daily contact.
+You’ll have plenty of opportunities to review our work and provide feedback. We’ll either share a Dropbox, Google Drive folder or Github repository or development site with you and we’ll have regular contact.
 
 You have the opportuninty to request up to **[two]** rounds of revisions **[separately for the design work on your website and for the work on your visual identity/Logo]**. See **Changes and Revisions** below for information on further revisions.
 
