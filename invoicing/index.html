@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>an invoice</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body
+  class="stage-0"
+>
+  <section
+    class="stage-container stage-container--0"
+  >
+    <div>
+      <input type='file' id='fileinput'>
+      <input type='button' id='btnLoad' value='Load' onclick='loadFile();'>
+    </div>
+  </section>
+
+  <section
+    class="stage-container stage-container--1"
+  >
+    <header>
+        <div class="invoice-number">
+          <h1>
+            invoice
+            <span
+              class="js--fill-me js--fill-me--empty"
+              data-fill-with="invoiceNo"
+              data-fill-method="simple"
+            >
+              invoiceNo
+            </span>
+          </h1>
+        </div>
+
+        <div class="branding">
+          <h2>
+            <span>
+              sleepingkiwi
+            </span>
+          </h2>
+        </div>
+
+        <div class="invoice-recipient">
+          <h3
+            class="js--fill-me js--fill-me--empty"
+            data-fill-with="invoiceFor"
+            data-fill-method="simple"
+          >
+            invoiceFor
+          </h3>
+          <h5
+            class="js--fill-me js--fill-me--empty js--fill-me--optional"
+            data-fill-with="onBehalfOf"
+            data-fill-method="simple"
+            data-fill-optional
+          >
+            onBehalfOf
+          </h5>
+        </div>
+    </header>
+
+    <main>
+      <header>
+        <h1>
+          Services
+        </h1>
+        <h2
+          class="js--fill-me js--fill-me--empty"
+          data-fill-with="invoiceDate"
+          data-fill-method="simple"
+        >
+          invoiceDate
+        </h2>
+      </header>
+      <div class="invoice-services">
+        <ul
+          class="services-list js--fill-me js--fill-me--empty"
+          data-fill-with="services"
+          data-fill-method="servicesList"
+        >
+          <li>
+            services
+          </li>
+        </ul>
+
+        <div class="services-total">
+          <p>
+            Total due
+          </p>
+          <h3
+            class="services-total__price js--fill-me js--fill-me--empty currency"
+            data-fill-method="servicesTotal"
+          >
+            servicesTotal
+          </h3>
+        </div>
+      </div>
+      <footer
+        class="invoice-payment-details"
+      >
+        <p>
+          <em>
+            Thank you. Your business is much appreciated.
+          </em>
+        </p>
+
+        <p
+          id="duedate"
+          class="invoice-payment-details__duedate"
+        >
+          Unless otherwise agreed, payment is due within 30 days.<br>This invoice is due on <strong><span
+              class="js--fill-me js--fill-me--empty"
+              data-fill-with="duedate"
+              data-fill-method="duedate"
+            >
+              duedate
+            </span></strong>
+        </p>
+
+        <p
+          class="invoice-payment-details__details-pre"
+        >
+          Payments can be made to the following details:
+        </p>
+        <ul
+          class="invoice-payment-details__details js--fill-me js--fill-me--empty"
+          data-fill-method="bankDetails"
+        >
+          <li>
+            bankDetails
+          </li>
+        </ul>
+
+        <!-- <p>
+          Or cheques payable to <em>Joseph Baggaley</em> can be sent to the address on the left.
+        </p> -->
+      </footer>
+    </main>
+
+
+    <footer>
+      <p
+        class="js--fill-me js--fill-me--empty"
+        data-fill-with="myAddress"
+        data-fill-method="simple"
+      >
+        My Address
+      </p>
+
+      <p
+        class="js--fill-me js--fill-me--empty"
+        data-fill-with="myPhone"
+        data-fill-method="simple"
+      >
+        My Phone Number
+      </p>
+
+      <p
+        class="js--fill-me js--fill-me--empty"
+        data-fill-with="myEmail"
+        data-fill-method="simple"
+      >
+        My Email Address
+      </p>
+
+      <p><small
+        class="js--fill-me js--fill-me--empty"
+        data-fill-with="myTrading"
+        data-fill-method="simple"
+      >
+        My Trading Details
+      </small></p>
+    </footer>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
