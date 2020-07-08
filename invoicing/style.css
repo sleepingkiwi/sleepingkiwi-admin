@@ -103,7 +103,7 @@ body {
   border-bottom: 6px solid var(--colour-bg);
 }
 .invoice-number h1 {
-  font-size: 1.5vw;
+  font-size: 24px;
   /* color: var(--colour-light); */
   margin: 0;
   font-weight: 800;
@@ -118,13 +118,14 @@ body {
   padding: var(--bsu);
   text-align: left;
   color: var(--colour-subtle);
+  margin-bottom: calc(var(--bsu)*2);
 }
 
 .branding h2 {
   font-weight: normal;
   /* letter-spacing: 3px; */
   margin: 0;
-  font-size: 2.5vw;
+  font-size: 40px;
 }
 
 
@@ -144,7 +145,7 @@ body {
 }
 
 .invoice-recipient h3  {
-  font-size: 2.5vw;
+  font-size: 40px;
 }
 
 .invoice-recipient h5  {
@@ -188,7 +189,7 @@ main > header h1,
 main > header h2 {
   margin: 0;
   display: inline-block;
-  font-size: 2.5vw;
+  font-size: 40px;
   font-weight: 800;
   font-style: italic;
 }
@@ -261,7 +262,7 @@ main > header h2 {
 .services-total p,
 .services-total h3 {
   margin: 0;
-  font-size: 2.5vw;
+  font-size: 40px;
   font-weight: 800;
   font-style: italic;
 }

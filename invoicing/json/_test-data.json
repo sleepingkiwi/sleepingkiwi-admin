@@ -16,35 +16,36 @@
       "cost": 400
     }
   ],
+  "duedate": "25/06/2019",
   "myAddress" : "My Name<br>123 My Street<br>My Town,<br>123 ABC",
   "myPhone" : "1234567890",
   "myEmail" : "my@email.co",
-  "myTrading" : "Sleepingkiwi is the trading name of Joseph Baggaley.",
+  "myTrading" : "sleepingkiwi is the trading name of Joseph Baggaley.",
   "internationalBankDetails" : [
     {
-      "title": "Name:",
+      "title": "Name",
       "value": "Joseph Baggaley"
     },
     {
-      "title": "Account Number:",
+      "title": "Account Number",
       "value": "12345678"
     },
     {
-      "title": "Sort Code:",
+      "title": "Sort Code",
       "value": "10-11-12"
     },
     {
-      "title": "IBAN:",
+      "title": "IBAN",
       "value": "gb12 1234 1234 1234 1234 12"
     },
     {
-      "title": "SWIFTBIC:",
+      "title": "SWIFTBIC",
       "value": "12345678"
     }
   ],
   "ukBankDetails" : [
     {
-      "title": "Name:",
+      "title": "Name",
       "value": "Joseph Baggaley"
     },
     {

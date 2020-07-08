@@ -58,3 +58,10 @@ $RECYCLE.BIN/
 bower_components
 node_modules
 .vscode
+
+
+# this project
+# ------------
+
+/invoicing/json/clients/*
+/invoicing/pdf/clients/*
