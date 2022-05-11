@@ -65,3 +65,5 @@ node_modules
 
 /invoicing/json/clients/*
 /invoicing/pdf/clients/*
+/one-offs
+/Terms of Agreement/signed-copies/*
