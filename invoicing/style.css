@@ -8,6 +8,21 @@
   --colour-bg: #ffcc66;
   --colour-bg-subtle: #8493a2;
 
+
+  --colour-bg-1: #d4604e;
+  --colour-bg-2: #f99d6a;
+  --colour-bg-3: #fbdfb5;
+  --colour-bg-4: #a8dea8;
+  --colour-bg-5: #bedecc;
+  /* --colour-bg-6: #a6cae7; */
+  --colour-bg-6: #adbfd9;
+  --colour-bg-7: #e4ceea;
+  --colour-bg-8: #f2777a;
+  --colour-bg-9: #afb8c2;
+  --colour-bg-10: #cad1d8;
+  --colour-bg-11: #d5dce4;
+  --colour-bg-12: #e2e6ea;
+
   --radius-default: 4px;
 
   --bsu: 24px;
@@ -97,16 +112,16 @@ body {
 **/
 .invoice-number {
   padding: var(--bsu);
-  text-align: center;
-  background: var(--colour-dark);
-  color: var(--colour-bg-subtle);
-  border-bottom: 6px solid var(--colour-bg);
+  text-align: right;
+  background: var(--colour-bg-6);
+  /* color: var(--colour-bg-subtle); */
+  /* border-bottom: 6px solid var(--colour-bg); */
 }
 .invoice-number h1 {
   font-size: 24px;
   /* color: var(--colour-light); */
   margin: 0;
-  font-weight: 800;
+  /* font-weight: 800; */
   font-style: italic;
 }
 
@@ -117,7 +132,7 @@ body {
 .branding {
   padding: var(--bsu);
   text-align: left;
-  color: var(--colour-subtle);
+  color: var(--colour-bg-6);
   margin-bottom: calc(var(--bsu)*2);
 }
 
@@ -125,7 +140,7 @@ body {
   font-weight: normal;
   /* letter-spacing: 3px; */
   margin: 0;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 
@@ -183,7 +198,7 @@ main {
 **/
 main > header {
   padding: var(--bsu) 0 var(--bsu-s);
-  border-bottom: 2px solid var(--colour-bg);
+  border-bottom: 3px solid var(--colour-bg-6);
 }
 main > header h1,
 main > header h2 {
@@ -253,7 +268,7 @@ main > header h2 {
 
 .services-total {
   padding: var(--bsu-s) 0 var(--bsu);
-  border-top: 2px solid var(--colour-bg);
+  border-top: 3px solid var(--colour-bg-6);
   display: flex;
   align-items: center;
   justify-content: space-between;
